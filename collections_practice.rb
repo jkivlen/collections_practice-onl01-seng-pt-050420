@@ -39,4 +39,7 @@ def sum_array(array)
   array.inject(0, :+)
 end
 
-def 
+def add_s(array)
+  array.collect do |string|
+    string.
+  
