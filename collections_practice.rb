@@ -41,5 +41,5 @@ end
 
 def add_s(array)
   array.collect do |string|
-    string.
+    string
   
