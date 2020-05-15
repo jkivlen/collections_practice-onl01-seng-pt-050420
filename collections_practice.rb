@@ -28,3 +28,4 @@ def kesha_maker(array)
     mon.delete(mon[2]).insert(2,"$")
   end
 end
+
