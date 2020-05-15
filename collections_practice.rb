@@ -3,6 +3,7 @@ def sort_array_asc(array)
   array.sort
 end
 
+array = [25, 7, 1]
 def sort_array_desc(array)
   array.sort do |a, b|
     b <=> a
