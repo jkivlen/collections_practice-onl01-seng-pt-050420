@@ -25,6 +25,6 @@ end
 
 def kesha_maker(array)
   array.collect do |string|
-    string.delelte(money[2]).insert(2, "$")
+    string.delelte(money[3]).insert(3, "$")
   end
 end
