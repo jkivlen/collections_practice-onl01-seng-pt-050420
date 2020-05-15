@@ -24,7 +24,5 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect do ||
-    string.delelte(money[3]).insert(3, "$")
-  end
+  array.collect {|arr| arr.delete(arr[2]).insert(2,"$")}
 end
