@@ -7,4 +7,8 @@ def sort_array_desc(array)
   array.sort{|a,b| b<=>a}
 end
 
-def 
+def sort_array_char_count(array)
+  array.sort do |stringa, stringb|
+    stringa.length <=> stringb.length
+  end
+end
